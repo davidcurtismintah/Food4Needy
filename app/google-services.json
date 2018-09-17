@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "96077737228",
+    "firebase_url": "https://food4needy-979c0.firebaseio.com",
+    "project_id": "food4needy-979c0",
+    "storage_bucket": "food4needy-979c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96077737228:android:e8d76024328583f7",
+        "android_client_info": {
+          "package_name": "com.allow.food4needy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96077737228-u8v2a0ousqik47qgvhnah63j7ak3u2d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allow.food4needy",
+            "certificate_hash": "ad9960ef920f3804cb12c4e63867abb695615a1b"
+          }
+        },
+        {
+          "client_id": "96077737228-jls32i2ubvpqiohienppv38859cm2av8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allow.food4needy",
+            "certificate_hash": "b52e681946e8448aa744f7a446a6196a82466139"
+          }
+        },
+        {
+          "client_id": "96077737228-mh577g8hrk7h7a067lmajfk09gpp7q57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgceBIcakPWtEp4yzz2dB9lHLEO_1Df-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96077737228-mh577g8hrk7h7a067lmajfk09gpp7q57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

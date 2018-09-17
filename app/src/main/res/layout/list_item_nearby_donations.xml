@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/food_details_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/food_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@color/bgGrey" />
+
+                <!--<android.support.v7.widget.AppCompatButton-->
+                <!--android:id="@+id/pick_up"-->
+                <!--style="@style/Widget.AppCompat.Button.Colored"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="PICK UP"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_margin="8dp"/>-->
+
+                <android.support.design.button.MaterialButton
+                    android:id="@+id/pick_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="PICK UP"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    app:backgroundTint="@android:color/transparent"
+                    app:icon="@drawable/ic_volunteers"
+                    app:iconTint="@color/colorAccent"
+                    app:rippleColor="@color/colorPrimary"
+                    app:strokeColor="@color/colorAccent"
+                    app:strokeWidth="2dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tool:text="Food Name" />
+
+            <TextView
+                android:id="@+id/food_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="2dp"
+                android:gravity="end"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                tool:text="Food Weight" />
+
+            <View
+                android:id="@+id/food_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/bgGrey" />
+
+            <TextView
+                android:id="@+id/food_donor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                tool:text="Food Donor" />
+
+            <TextView
+                android:id="@+id/food_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="2dp"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                tool:text="Location" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:theme="@style/MyLinearProgressTheme"
+                tool:progress="10" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center">
+
+                <android.support.design.chip.Chip
+                    android:id="@+id/donation_frequency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="2dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    app:chipText="Donation Frequency"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/food_expiry_date"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"/>
+
+                <TextView
+                    android:id="@+id/food_expiry_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:padding="2dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorAccent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/donation_frequency"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tool:text="Expiry Date" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

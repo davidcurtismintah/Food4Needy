@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_donations"
+        android:icon="@drawable/ic_my_donations"
+        android:title="@string/title_my_donations"
+        android:orderInCategory="0"/>
+
+    <item
+        android:id="@+id/all_donations"
+        android:icon="@drawable/ic_all_donations"
+        android:title="@string/title_all_donations"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/volunteers"
+        android:icon="@drawable/ic_volunteers"
+        android:title="@string/title_volunteers"
+        android:orderInCategory="2" />
+
+</menu>

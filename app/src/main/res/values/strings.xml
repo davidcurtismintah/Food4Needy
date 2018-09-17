@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Food4Needy</string>
+    <string name="desc_initial_activity_background">initial activity background</string>
+    <string name="desc_logo">logo</string>
+    <string name="role_donor">DONOR</string>
+    <string name="role_volunteer">VOLUNTEER</string>
+    <string name="role_restaurant">RESTAURANT</string>
+    <string name="role_to_play_text">What role\nwould you like to play?</string>
+    <string name="label_username_text">USERNAME</string>
+    <string name="label_password_text">PASSWORD</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_up_as_text">%1$s NAME</string>
+    <string name="user_name_hint_text">%1$s name</string>
+    <string name="login_text">LogIn</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_my_donations">My Donations</string>
+    <string name="title_all_donations">All Donations</string>
+    <string name="title_volunteers">Volunteers</string>
+    <string name="title_restaurants">Restaurants</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="empty_my_donations_text">You have no pending donations</string>
+    <string name="empty_my_donations_action_text">Make a donation</string>
+    <string name="empty_info_pending_text">No donations are pending</string>
+    <string name="empty_info_donated_text">You are yet to make a donation</string>
+    <string name="empty_info_expired_text">No donations have expired, yay</string>
+    <string name="empty_nearby_donations_text">There are no donations near you</string>
+    <string name="empty_nearby_donations_action_text">Be the first</string>
+    <string name="empty_nearby_volunteers_text">There are no volunteers near you</string>
+    <string name="empty_nearby_restaurants_text">There are no restaurants near you</string>
+    <string name="empty_nearby_restaurants_action_text">Be the first</string>
+    <string name="toolbar_welcome_text">Welcome, %1$s</string>
+    <string name="toolbar_welcome_guest_text">Welcome</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_could_not_get_user">Could not get user</string>
+    <string name="error_could_not_add_donation">Could not add donation</string>
+    <string name="error_could_not_get_user_donation_summary">Could not get user donation summary</string>
+    <string name="success_donation_added">Donation Added</string>
+    <string name="success_user_updated">User updated</string>
+
+    <string name="title_activity_add_donation">Donation</string>
+
+    <string name="unknown_sign_in_response">Unknown Response</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="sign_in_cancelled">Sign In cancelled</string>
+    <string name="no_internet_connection">No Internet Found</string>
+    <string name="signed_in">Signed In successfully</string>
+    <string name="error_user_details_name_is_required">Name is required</string>
+    <string name="error_user_details_phone_is_required">Phone is required</string>
+    <string name="error_donation_name_is_required">Food name is required</string>
+    <string name="error_donation_weight_is_required">Food weight is required</string>
+    <string name="error_donation_expiry_is_required">Food expiry is required</string>
+    <string name="error_donation_frequency_is_required">Donation frequency is required</string>
+    <string name="heading_info">Info</string>
+    <string name="heading_donations">Donations</string>
+    <string name="heading_rewards">Rewards</string>
+    <string name="donation_expired_text">Expired</string>
+
+    <string name="user_details_welcome_text">Welcome! One more step to go</string>
+    <string name="button_proceed_text">PROCEED</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rationale_location">This app needs access to your location to know where you are.</string>
+    <string name="rationale_call">This app needs access to your dialer to make calls.</string>
+    <string name="rationale_camera">This app needs access to your camera to take a selfie.</string>
+    <string name="returned_from_app_settings_to_activity">
+        Returned from app settings with the following permissions:
+        \n\nLocation: %s
+    </string>
+    <string name="no_place_selected_text">No place selected</string>
+
+    <string name="notification_text_title">Listening for location changes</string>
+    <string name="notification_text_content">Tap to open the app</string>
+    <string name="notification_stop_action_text">Stop</string>
+    <string name="donation_summary_pending_text">P</string>
+    <string name="donation_summary_donated_text">D</string>
+    <string name="donation_summary_expired_text">E</string>
+    <string name="dialog_delete_donation">Delete Donation</string>
+    <string name="dialog_delete_donation_confirmation_onetime">Do you really want to delete this donation?</string>
+    <string name="dialog_delete_donation_confirmation_daily">Do you really want to stop helping on a daily basis?</string>
+    <string name="dialog_delete_donation_confirmation_weekly">Do you really want to stop helping on a weekly basis?</string>
+    <string name="dialog_delete_donation_confirmation_monthly">Do you really want to stop helping on a monthly basis?</string>
+    <string name="dialog_delete_donation_confirmation_annually">Do you really want to stop helping on a yearly basis?</string>
+    <string name="my_donation_deleted_text">%1$s removed</string>
+    <string name="my_donation_delete_error_text">Could not delete donation</string>
+    <string name="my_donation_selfie_posted_text">Selfie posted</string>
+    <string name="my_donation_selfie_post_error_text">Could not post selfie</string>
+    <string name="my_donation_no_volunteer_to_pick_up_text">No one has volunteered to pick up this donation yet</string>
+    <string name="user_donation_picked_text">you have volunteered to pick up %1$s</string>
+    <string name="select_offer_dialog_title">Select your offer</string>
+    <string name="button_save_text">SAVE</string>
+    <string name="empty_recurring_donation_frequency_text">Tap pick frequency to select how often you want to donate food</string>
+    <string name="recurring_donation_pick_frequency_text">PICK FREQUENCY</string>
+    <string name="add_one_time_only_donation_switch_text">One time only?</string>
+    <string name="add_donation_name_of_food_hint">Name of food</string>
+    <string name="add_donation_weight_in_kilograms_hint">Weight in kilograms</string>
+    <string name="add_donation_hours_to_expiry_hint">Hours to expiry</string>
+    <string name="recurring_donation_switch_info_text">If on, this donation will expire and remove itself when the hours you set is up. If off, this donation will persist until you remove it</string>
+    <string name="add_user_address_text">%1$s, %2$s</string>
+    <string name="pick_location_empty_view_text">Tap pick location to get your address</string>
+    <string name="pick_location_button_text">PICK LOCATION</string>
+    <string name="start_navigation_text">Not sure of address? Tap on the icon below to start navigation</string>
+    <string name="loading_text">Please wait…</string>
+    <string name="donation_already_picked_message">Donation already picked up</string>
+    <string name="pick_donation_error_text">Could not pick donation</string>
+    <string name="error_dialer_app_not_installed">No application found to make a call</string>
+    <string name="error_camera_app_not_installed">No application found to take a selfie</string>
+    <string name="error_google_maps_not_installed">Google Maps is not installed on this device</string>
+    <string name="donation_thank_you_text">Thank you for filling an empty stomach</string>
+    <string name="my_donation_donate_error_text">Could not make donation</string>
+    <string name="donation_to_be_delivered_by_text">To be delivered by</string>
+    <string name="take_selfie_with_volunteer_text">Take selfie with volunteer?</string>
+    <string name="post_selfies_on_social_media_text">Optional, we will post selfies on social media</string>
+    <string name="selfie_button_text">SELFIE</string>
+
+    <string name="gps_not_found_title">Location</string>
+    <string name="gps_not_found_message">Don’t see anything here? Please make sure you have enabled location services on this device</string>
+    <string name="open_location_settings">Open Location Settings</string>
+
+    <string name="menu_about">About</string>
+    <string name="app_description">Food4needy is a not-for-profit organization started to curb hunger. With this app, we provide a platform that makes food available to others.</string>
+    <string name="terms_reminder">By signing in, you agree to our Terms of use.</string>
+    <string name="terms_and_conditions_url">https://www.websitepolicies.com/policies/view/dNG3EK</string>
+    <string name="app_developed_by_text">App developed by</string>
+    <string name="developer_name">David Curtis Mintah</string>
+    <string name="developer_hash_tag">#davidcurtismintah</string>
+</resources>

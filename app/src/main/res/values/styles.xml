@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyViewTheme" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="MyTextViewStyle" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/MyViewTheme</item>
+        <item name="android:layout_marginTop">32dp</item>
+    </style>
+
+    <style name="MyEditTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/MyViewTheme</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="MyLinearProgressTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextActionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/call_log_action_height</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:paddingLeft">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="AppTheme.ProceedButton" parent="AppTheme.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>

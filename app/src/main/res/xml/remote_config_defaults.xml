@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>allowed</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>not_allowed_msg</key>
+        <value>Not Allowed</value>
+    </entry>
+</defaultsMap>
